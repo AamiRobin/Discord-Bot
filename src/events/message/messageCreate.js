@@ -229,7 +229,7 @@ module.exports = async (client, message) => {
     if (message.channel.id !== data.Channel) return;
     if (process.env.OPENAI) {
       fetch(
-        `https://api.openai.com/v1/chat/completions`,
+        `https://openrouter.ai/api/v1/chat/completions`,
         {
           method: 'POST',
           headers: {
@@ -237,7 +237,7 @@ module.exports = async (client, message) => {
             'Authorization': 'Bearer ' + process.env.OPENAI,
           },
           body: JSON.stringify({
-            'model': 'gpt-3.5-turbo',
+            'model': 'nousresearch/nous-capybara-7b',
             'messages': [{
               'role': 'user',
               'content': message.content

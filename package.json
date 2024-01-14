@@ -24,7 +24,7 @@
     "Suggestions",
     "Server Stats"
   ],
-  "author": "CorwinDev",
+  "author": "AmiRobin",
   "license": "ISC",
   "dependencies": {
     "@discordjs/voice": "^0.16.0",

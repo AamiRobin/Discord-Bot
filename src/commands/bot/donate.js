@@ -5,7 +5,7 @@ module.exports = async (client, interaction, args) => {
         .addComponents(
             new Discord.ButtonBuilder()
                 .setLabel("AmiRobin GitHub")
-                .setURL("https://github.com/sponsors/AmiRobin")
+                .setURL("https://github.com/sponsors/AamiRobin")
                 .setStyle(Discord.ButtonStyle.Link),
         );
 
@@ -13,7 +13,7 @@ module.exports = async (client, interaction, args) => {
         title: `${client.user.username}・Donate`,
         desc: '_____ \n\nClick the button below for the sponsor page \n**Pay attention! sponsor is not required**',
         thumbnail: client.user.avatarURL({ dynamic: true }),
-        url: "https://github.com/sponsors/AmiRobin",
+        url: "https://github.com/sponsors/AamiRobin",
         components: [row],
         type: 'editreply'
     }, interaction)

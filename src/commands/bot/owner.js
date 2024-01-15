@@ -14,17 +14,12 @@ module.exports = async (client, interaction, args) => {
         },
         {
           name: "🏷┆Discord tag",
-          value: `</AmiRobin>`,
+          value: `</amirobin>`,
           inline: true,
         },
         {
           name: "🏢┆Organization",
-          value: `CoreWare`,
-          inline: true,
-        },
-        {
-          name: "🌐┆Website",
-          value: `[https://corwindev.nl](https://corwindev.nl)`,
+          value: `AmiRobin Development`,
           inline: true,
         },
       ],
